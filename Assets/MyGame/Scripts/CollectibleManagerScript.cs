@@ -9,6 +9,10 @@ public class CollectibleManagerScript : MonoBehaviour
     public bool collectibleGrapes;
     public bool collectibleApple;
     public bool collectibleCherries;
+    public Collider collGrapes;
+    public Collider collApple;
+    public Collider collCherries;
+    public GameObject Player;
        
 
     void Update()
