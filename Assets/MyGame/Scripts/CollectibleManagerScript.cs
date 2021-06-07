@@ -14,10 +14,15 @@ public class CollectibleManagerScript : MonoBehaviour
     public Collider collCherries;
     public GameObject Player;
        
+    private void OnCollisionEnter(Collision other) 
+        {
+            Debug.Log("coll" + other);
 
-    void Update()
+        }
+
+    public void Update()
     {
-
+        
         if (collectibleGrapes == true && collectibleApple == true && collectibleCherries == true) 
         
         {
