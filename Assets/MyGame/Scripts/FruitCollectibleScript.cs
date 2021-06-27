@@ -4,10 +4,19 @@ using UnityEngine;
 
 public class FruitCollectibleScript : MonoBehaviour
 {
+    [SerializeField] PlayerData myPlayerData;
+    void Start()
+    {
+        Debug.Log("started fruit script");
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Trigger detected" + other.gameObject.name);
 
-  /*  private void OnCollisionEnter(Collision other) {
-        
-       Debug.Log("Hallo" + other.gameObject.name);
-        
-    } */
+        myPlayerData.countCollectibles++;
+
+        Destroy(gameObject);
+    }
+
 }
+
