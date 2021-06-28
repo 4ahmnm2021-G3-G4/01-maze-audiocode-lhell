@@ -25,18 +25,34 @@ First open Oculus software, second open SteamVR (or start game from unity), othe
 Oculus Rift/S, Vive; 
 Tested on Oculus Rift S
 
-### Visuals: 
-Screenshots (concept and experience), Video
+### Visuals: (in Github Folder "Visuals")
+Maze TopView: TopViewMaze.png
+Cat: Cat.png
+Start: StartMaze.png
 
 ### Third party material: 
-(if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
+Fonts:
+    Quiet Meows (https://www.dafont.com/quiet-meows.font)
+
+Assets:
+    Banana (https://www.cgtrader.com/free-3d-models/food/fruit/banana-5f92dd11-804d-4340-b08b-02d05d7200dd)
+    Apple (https://www.turbosquid.com/3d-models/apple-cartoon-3d-1495154);
+    Cherry (https://www.cgtrader.com/free-3d-models/food/fruit/cherry-dd80f106-7e17-4297-b477-fb8b909180d6)
+    Key (https://www.cgtrader.com/free-3d-models/various/various-models/bioshock-key)
+    Fish (https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067)
+    Bucket (https://www.turbosquid.com/3d-models/3d-bucket-water-model/497542)
+    Cat (https://free3d.com/3d-model/cat-v1--326682.html)
 
 ### Project state: 
-2%/100% finished
-<progress max="100" value="2"></progress>
+98%/100% finished
+<progress max="100" value="98"></progress>
 
 ### Limitations: 
 
 ### Lessons Learned: 
 
-Copyright by smeerws :)
+-Animation & Animator in Unity
+-PlayerData
+-Looking for good free assets is worse than math
+
+Copyright by smeerws and lhell :)
