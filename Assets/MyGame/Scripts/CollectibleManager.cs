@@ -19,7 +19,7 @@ public class CollectibleManager : MonoBehaviour
     public void Update()
     {
 
-        if (myPlayerData.countCollectibles == 3)
+        if (myPlayerData.countCollectibles >= 3)
 
         {
 
