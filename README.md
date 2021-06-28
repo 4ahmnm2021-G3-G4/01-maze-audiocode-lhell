@@ -44,13 +44,18 @@ Assets:
     Cat (https://free3d.com/3d-model/cat-v1--326682.html)
 
 ### Project state: 
-98%/100% finished
+99%/100% finished
 <progress max="100" value="98"></progress>
 
 ### Limitations: 
 
+-my programming status at the beginning of the project
+-visual studio (in terms of showing me what I need to put in brackets etc.)
+-time
+
 ### Lessons Learned: 
 
+-On Trigger enter >>>>> On Collision enter
 -Animation & Animator in Unity
 -PlayerData
 -Looking for good free assets is worse than math
