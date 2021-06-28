@@ -6,7 +6,9 @@ public class CollectibleManager : MonoBehaviour
 {
 
     public bool doorOpen;
-    // public PlayerData myPlayerData;
+    public PlayerData myPlayerData;
+
+    public Animator animator;
 
     void Start()
     {
@@ -14,18 +16,20 @@ public class CollectibleManager : MonoBehaviour
         doorOpen = false;
 
     }
-    // public void Update()
-    /* {
+    public void Update()
+    {
 
-         if (myPlayerData.countCollectibles = 3)
+        if (myPlayerData.countCollectibles == 3)
 
-         {
+        {
 
-             Debug.Log("Alles eingesammelt");
-             //open the second gate
+            Debug.Log("Alles eingesammelt");
+            //open the second gate
 
-         }
+            animator.SetBool("fruitGate", true);
 
-     } */
+        }
+
+    }
 }
 
