@@ -6,6 +6,9 @@ public class FishManager : MonoBehaviour
 {
     public GameObject fishObject;
     public Animator animator;
+    public GameObject catMeow;
+    public GameObject catPurr;
+
 
     public bool fish;
 
@@ -21,5 +24,8 @@ public class FishManager : MonoBehaviour
         Debug.Log("fish entered trigger zone");
 
         animator.SetBool("fish", true);
+
+        catMeow.SetActive(false);
+        catPurr.SetActive(true);
     }
 }
